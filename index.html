@@ -1,0 +1,26 @@
+<!Doctype html>
+<html lang='en'>
+    <head>
+        <!--ois-->
+        <meta charset='utf-8'>
+        <meta name='viewport' content='width=device-width'>
+        <title> Document</title>
+        <link rel='stylesheet' href='style.css'>
+    </head>
+    <body>
+        <h1> To do List!</h1>
+        <form action="" class="container" id="form" data-new-list-form>
+            <input  type="text" id='input' data-new-list-input />
+            <button id="add">+</button>
+        </form>
+        
+        <section class="task-and-check" style='margin:6px'>
+            
+            <div class="to-do" id="toDoContainer" data-list></div>
+            <div class="check" id="toDoContainer_check" data-check></div>
+            
+        </section>
+        <button style='margin-top:4px;' id='del_task' del_task>Completed Tasks</button>
+        <script src='script.js'></script>
+    </body>
+</html>

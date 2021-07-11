@@ -1,0 +1,11 @@
+.task-and-check{
+    display:flex;
+    justify-content:flex-start;
+
+}
+
+.check{
+    display:flex;
+    flex-direction: column;
+
+}
